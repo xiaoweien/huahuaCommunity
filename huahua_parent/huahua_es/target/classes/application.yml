@@ -1,0 +1,12 @@
+server:
+  port: 9007
+spring:
+  application:
+    name: huahua-es
+  data:
+    elasticsearch:
+      cluster-nodes: 192.168.234.128:9300
+#      cluster-name: huahua_elasticsearch
+#  elasticsearch:
+#    jest:
+#      uris: http://192.168.234.128:9200/

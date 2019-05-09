@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>huahua_parent</artifactId>
+        <groupId>com.huahua</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>huahua_spit</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.huahua</groupId>
+            <artifactId>huahua_common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+            <version>2.0.5.RELEASE</version>
+        </dependency>
+        <!--总结下来就是：-->
+        <!--如果你的spring boot的版本号是1.4.0到1.5.0 之间，-->
+        <!--添加redis的jar包的时候添加成-->
+        <!--spring-boot-starter-data-redis和spring-boot-starter-redis-->
+        <!--是都可以的。。。-->
+        <!--但是，如果你的spring boot的版本号是1.4.0 以前 也就是1.3.8 版本以前，-->
+        <!--添加redis 的 jar包 就必须是 spring-boot-starter-redis 的jar包。。-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,23 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: huahua-spit
+
+#mongodb
+  data:
+    mongodb:
+      host: 192.168.234.128
+      database: spitdb
+      port: 27017
+#redis
+  redis:
+    host: 192.168.234.128   #39.97.117.83
+    port: 6379
+    #password: zhangyy
+#jwt.config
+jwt:
+  config:
+    key: huahuaCommunity
+    #过期时间(一小时)
+    ttl: 3600000

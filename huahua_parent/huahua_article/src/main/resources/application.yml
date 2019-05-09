@@ -1,0 +1,33 @@
+server: 
+  port: 9004
+spring: 
+  application:  
+    name: huahua-article #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.97.117.83:3306/huahua_article?useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: '123456'
+    #password这个节点如果配置成纯数字。
+    #即使我们命令行能够正常登录，但是通过此配置文件连接数据库时。
+    #就会报Access denied for user 'root'@'localhost'。
+  jpa: 
+    database: MySQL
+    show-sql: true
+#redis
+  redis:
+    host: 39.97.117.83
+    port: 6379
+    password: zhangyy
+#mongo
+  data:
+    mongodb:
+      host: 39.97.117.83
+      port: 27017
+      database: recruitdb
+#jwt.config
+jwt:
+  config:
+    key: huahuaCommunity
+    #过期时间(一小时)
+    ttl: 3600000

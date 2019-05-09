@@ -1,0 +1,17 @@
+server: 
+  port: 9005
+spring: 
+  application:  
+    name: huahua-gathering #指定服务名
+  datasource:  
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.234.130:3306/huahua_gathering?useUnicode=true&characterEncoding=UTF8
+    username: root
+    password: '0523'
+  jpa: 
+    database: MySQL
+    show-sql: true
+#redis
+  redis:
+    host: 192.168.234.130
+    port: 6379

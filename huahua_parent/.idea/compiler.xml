@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="huahua_article" />
+        <module name="huahua_base" />
+        <module name="huahua_common" />
+        <module name="huahua_config" />
+        <module name="huahua_es" />
+        <module name="huahua_eureka" />
+        <module name="huahua_friend" />
+        <module name="huahua_gathering" />
+        <module name="huahua_manager" />
+        <module name="huahua_mq" />
+        <module name="huahua_qa" />
+        <module name="huahua_recruit" />
+        <module name="huahua_sms" />
+        <module name="huahua_spit" />
+        <module name="huahua_user" />
+        <module name="huahua_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="huahua_search" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="huahua_article" options="-parameters" />
+      <module name="huahua_base" options="-parameters" />
+      <module name="huahua_common" options="-parameters" />
+      <module name="huahua_config" options="-parameters" />
+      <module name="huahua_es" options="-parameters" />
+      <module name="huahua_eureka" options="-parameters" />
+      <module name="huahua_friend" options="-parameters" />
+      <module name="huahua_gathering" options="-parameters" />
+      <module name="huahua_manager" options="-parameters" />
+      <module name="huahua_mq" options="-parameters" />
+      <module name="huahua_parent" options="-parameters" />
+      <module name="huahua_qa" options="-parameters" />
+      <module name="huahua_recruit" options="-parameters" />
+      <module name="huahua_search" options="-parameters" />
+      <module name="huahua_sms" options="-parameters" />
+      <module name="huahua_spit" options="-parameters" />
+      <module name="huahua_user" options="-parameters" />
+      <module name="huahua_web" options="-parameters" />
+    </option>
+  </component>
+</project>
