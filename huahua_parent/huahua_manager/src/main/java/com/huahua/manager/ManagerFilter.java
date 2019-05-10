@@ -61,8 +61,6 @@ public class ManagerFilter extends ZuulFilter {
                     return null;
                 }
             }
-
-
         }
         requestContext.setSendZuulResponse(false);//终止运行
         requestContext.setResponseStatusCode(401);//http状态码
