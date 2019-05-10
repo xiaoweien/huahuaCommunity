@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/label")
 @RefreshScope//刷新自定义的配置
 public class BaseController{
-
     @Autowired private BaseService baseService;
 
     @Value("${ip}")
